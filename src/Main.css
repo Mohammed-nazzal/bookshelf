@@ -1,0 +1,174 @@
+
+ .Main {
+  background-color: rgb(255, 255, 255);
+  justify-content:center ;
+  position: relative;
+  width :auto;
+  height: 1600px;
+
+ }
+ 
+ .navbar {
+  width: 1270px;
+  background-color: #333;
+  border-radius: 10px;
+  height: 30px;
+  margin :10px;
+}
+
+.navbar-right {
+  float : right ;
+}
+
+
+.navbar a {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  height: 30px;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color :#333
+}
+
+
+
+
+
+  .book_show {
+    background-color: #333;
+    border-radius: 10px;
+    width :auto;
+    height: 1350px;
+    margin :30px; 
+  }
+
+  
+
+  .New_books {
+    background-color: #333;
+    width: 900px;
+    height: auto;
+    margin:30px;
+    
+  }
+
+
+  .Most_reading{
+    background-color: #333;
+    width: 900px;
+    height: auto;
+    margin:30px;
+  }
+
+  .Recommended{
+    background-color: #333;
+    width: 900px;
+    height: auto;
+    margin:30px;
+  }
+
+
+
+  .New_books > h1 {
+    color :white ;
+    font-size: 20;
+  }
+
+  .Most_reading >h1 {
+    color : white ;
+    font-size: 20;
+  }
+
+  .Recommended>h1 {
+    color : white ;
+    font-size: 20;
+  }
+
+
+  .addition {
+    width:200px;
+    height:1350px;
+    position :absolute;
+    right:30px ;
+    top:80px;
+    background-color:#333 ;
+    border-radius: 10px;
+  
+  }
+
+  .addition >h1 {
+    color :white;
+    margin :10px;
+  }
+
+  .footer {
+    position:absolute;
+    left: 10px;
+    bottom: 10px;
+    left: 10px;
+    width: 1200px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+  .fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+
+  
+  
+  
+  
+
+
+  

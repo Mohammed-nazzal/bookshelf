@@ -1,0 +1,165 @@
+/* Chat containers */
+.ChatBox {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width:800px;
+    height: auto;
+     /* display: block;  */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .ChatBox::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .ChatBox img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+    height: auto;
+  }
+  
+  /* Style the right image */
+  .ChatBox img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+
+
+
+  .navbar { 
+    background-color: white;
+    float:left;
+    /* overflow:visible; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: rgb(169, 235, 125);
+    /* color: white; */
+  }
+  
+    /* Hide the link that should open and close the navbar on small screens */
+  .navbar .icon {
+    display: none;
+  }
+
+
+
+  #CP {
+    display: none;
+  }
+
+  .reply-section{
+   
+    float:left;
+    background-color: white;
+    margin-top: 10px;
+    width : 100%;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display:none;
+    
+  }
+
+
+  .reply-message {
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: auto;
+    width: 95%; 
+    margin : 5px;
+    justify-content: center; 
+    padding :10px;
+    float:block;
+  
+  }
+
+  .image-reply{
+     margin : 10px;
+     float:left;
+     width : 40px;
+     height: 40px;
+  }
+
+
+  
+  .reply-name {
+    font-style: italic;
+    font-size: 20px;
+    padding:1px;
+  }
+  .reply-text {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding:1px;
+    margin :5px;
+
+  }
+
+
+  .textEditor {
+    position: relative;
+    bottom:3px;
+    margin : 5px;
+  }
+
+
+
+  .reply-btn:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  
+
+
+  
